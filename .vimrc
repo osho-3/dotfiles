@@ -1,4 +1,4 @@
-set cindent
+"set cindent
 "set list
 
 set expandtab
