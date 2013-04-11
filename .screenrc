@@ -1,0 +1,14 @@
+escape ^t^t
+shell bash
+bind w windowlist
+autodetach on
+hardstatus on
+hardstatus alwayslastline "%c %m/%d | %w|%H"
+bind S split
+bind F focus
+bind R remove
+bind K kill
+scrollback 10000
+defscrollback 10000
+defencoding UTF-8
+encoding UTF-8
