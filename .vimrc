@@ -82,12 +82,32 @@ if neobundle#exists_not_installed_bundles()
     "finish
 endif
 
+
+"--------------------------------------------------------------------------
+"lightline
+NeoBundle 'itchyny/lightline.vim'
+" lightline.vim
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+            \ 'component': {
+                  \   'readonly': '%{&readonly?"\u2b64":""}',
+    \ },
+    \ 'separator': { 'left': "\u2b80", 'right': "\u2b82" },
+    \ 'subseparator': { 'left': "\u2b81", 'right': "\u2b83" },
+    \ }
+
+" カラー設定
+set t_Co=256
+set laststatus=2 
 NeoBundle 'puppetlabs/puppet-syntax-vim'
 NeoBundle 'thinca/vim-quickrun'
 NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'rodjek/vim-puppet'
 NeoBundle 'Shougo/neocomplcache'
+NeoBundle 'Shougo/vimproc'
+"NeoBundle 'Shougo/neocomplcache-snippets-complete'
+NeoBundle 'Shougo/neosnippet'
 NeoBundle 'sudo.vim'
 NeoBundle 'Align'
 NeoBundle 'garbas/vim-snipmate'
