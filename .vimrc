@@ -108,8 +108,20 @@ NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'Shougo/vimproc'
 "NeoBundle 'Shougo/neocomplcache-snippets-complete'
 NeoBundle 'Shougo/neosnippet'
+NeoBundle 'Shougo/neosnippet-snippets'
 NeoBundle 'sudo.vim'
 NeoBundle 'Align'
 NeoBundle 'garbas/vim-snipmate'
 NeoBundle 'tomtom/tlib_vim'
 NeoBundle 'MarcWeber/vim-addon-mw-utils'
+
+"http://blog.glidenote.com/blog/2013/02/28/the-silver-searcher-better-than-ack/
+NeoBundle 'rking/ag.vim'
+
+"https://github.com/vim-scripts/opsplorer
+"バッファタブにパスを省略してファイル名のみ表示する(buftabs.vim)
+let g:buftabs_only_basename=1
+"バッファタブをステータスライン内に表示する
+let g:buftabs_in_statusline=1
+:noremap <C-S-left> :bprev<CR> 
+:noremap <C-S-right> :bnext<CR> 
