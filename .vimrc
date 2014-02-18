@@ -119,6 +119,11 @@ NeoBundle 'garbas/vim-snipmate'
 NeoBundle 'tomtom/tlib_vim'
 NeoBundle 'MarcWeber/vim-addon-mw-utils'
 
+"close html tag  Ctrl -
+NeoBundle 'vim-scripts/closetag.vim'
+let g:closetag_html_style=1
+"Yankiring
+NeoBundle 'vim-scripts/YankRing.vim'
 "http://blog.glidenote.com/blog/2013/02/28/the-silver-searcher-better-than-ack/
 NeoBundle 'rking/ag.vim'
 
