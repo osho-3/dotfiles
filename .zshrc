@@ -90,3 +90,4 @@ alias vssh="sudo vagrant ssh"
 alias dig='dig +noall +answer'
 alias grep='grep --color'
 setopt noautoremoveslash
+bindkey \^U backward-kill-line
